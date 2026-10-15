@@ -1,0 +1,46 @@
+body {
+    font-size: medium;
+    font-family: Serif;
+    background-color: black;
+    color: white;
+}
+
+#page {
+    background-color: white;
+    color: black;
+    padding: 1em;
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: Sans-Serif;
+    color: black;
+    text-align: center;
+    border-bottom: solid 4px orange;
+}
+
+p {
+    text-indent: 1em;
+    text-align: justify;
+    line-height: 150%;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    text-decoration: none;
+}
