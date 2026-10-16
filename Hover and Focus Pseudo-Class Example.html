@@ -3,8 +3,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hover and Focus Pseudo-Class Example</title>
+    <style type="text/css" media="all">
+        .annoy:hover{border-style: dashed; background-color: blueviolet;}
+        input[type=text]:hover{background-color: blueviolet;}
+        input[type=text]:focus{background-color: #ffa500;}
+    </style>
 </head>
 <body>
-    
+    <p class="annoy">Roll over me.</p>
+    <p>Now <span class="annoy">roll over</span> that bit of text.</p>
+    <form action="#">
+        <div><input type="text" size="40" value="Hover and then click into this field"></div>
+    </form>
 </body>
 </html>
