@@ -1,0 +1,37 @@
+/* ==========================================
+   power.css
+   ========================================== */
+
+/* Latar belakang halaman berwarna oranye */
+body {
+  background-color: #ff9900; /* atau orange */
+  font-family: Times, "Times New Roman", serif;
+  margin: 20px;
+}
+
+/* Kotak utama berwarna merah dengan garis tepi hitam */
+.boxed {
+  background-color: red;
+  border: 2px solid black;
+  padding: 20px 30px 30px 30px;
+}
+
+/* Sudut kotak yang melengkung (rounded) */
+.rounded {
+  border-radius: 10px;
+}
+
+/* Judul dengan teks putih dan efek bayangan (text-shadow) */
+h1 {
+  color: white;
+  font-size: 55px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  /* Efek bayangan gelap di belakang teks */
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7), 
+              -2px -2px 4px rgba(0, 0, 0, 0.4);
+}
+
