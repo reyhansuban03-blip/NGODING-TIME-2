@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<title>Crossbrowser Downloadable Fonts Example</title> 
+<style type="text/css"> 
+    @font-face {font-family: "Mufferaw"; 
+                src: url(MUFFERAW.ttf);} 
+   p { font-family: serif; font-size: 5em;} 
+   p#muff { font-family: "Mufferaw", serif;} 
+</style> 
+<style type="text/css" media="screen"> 
+/* @font-face IE EOT rules */ 
+@font-face{font-family:"Mufferaw"; 
+           font-style:normal; 
+           font-weight:normal; 
+           src: url(mufferaw.eot);} 
+</style>  
+</head> 
+<body> 
+<p id="muff">This should be Mufferaw a True Type font.</p> 
+<p>This should be the standard serif font.</p> 
+</body> 
+</html>

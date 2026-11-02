@@ -1,0 +1,24 @@
+Example
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<title>mask-clip Example</title> 
+<style type="text/css"> 
+div {height: 50px; width: 150px; 
+     float: left;  
+     margin: 20px; padding: 20px; 
+     background-color: red; 
+     font: bold xx-large; 
+     border: 15px solid black; 
+     -webkit-mask-image: url(starmask.png); 
+     -webkit-mask-repeat: repeat; 
+     -webkit-mask-size: 20px 20px;} 
+</style> 
+</head> 
+<body> 
+<div style="-webkit-mask-clip: content;">content</div> 
+<div style="-webkit-mask-clip: border;">border</div> 
+<div style="-webkit-mask-clip: padding;">padding</div> 
+</body> 
+</html>

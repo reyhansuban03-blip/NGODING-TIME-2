@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accelerator Test</title>
+    <style type="text/css" media="screen">
+        .accelerator {-ms-accelerator: true;
+                      accelerator: true;
+                      text-decoration: underline;}
+    </style>
+    <script>
+        const passwordInput=document.getElementById('userpass');
+        const showpasswordChekbox=document.getElementById('show-password');
+
+        showpasswordChekbox.addEventListener('change', function() { if (this.checked) {
+            passwordInput.type='text';  
+        } else{
+            passwordInput.type='passwprd';
+        } })
+    </script>
+</head>
+<body>
+    <form action="login.php" method="post">
+        <div>
+            <label>U<span class="accelerator">s</span>ername:<input type="text" name="userpass" id="userpass"
+                eccesskey="s">
+            </label>
+        </div>
+        <div>
+            <label>
+                <span class="accelerator">p</span>assword:
+                <input type="password" name="userpass" id="username" accesskey="p">
+            </label>
+             <br>
+    <input type="checkbox" id="show-password">Tampilkan password
+     </div> 
+        <div>
+            <input type="submit" value="login">
+           
+        </div>
+    </form>
+</body>
+</html>
